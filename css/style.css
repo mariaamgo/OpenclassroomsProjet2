@@ -34,7 +34,7 @@ a {
 
 .section-title {
     margin: 0;
-    font-size: 22px;
+	font-size: 1.5em;
 }
 
 .card {
@@ -45,12 +45,16 @@ a {
 	overflow: hidden;
 }
 
-.card img {
-    object-fit: cover;
+.card-title {
+	font-size: 1em;
 }
 
-.card-title {
-    font-size: 16px;
+.card-subtitle {
+	font-size: 0.875em;
+}
+
+.card img {
+    object-fit: cover;
 }
 
 .euro {
@@ -94,6 +98,7 @@ header nav {
 }
 
 .nav-list li{
+	font-size: 1em;
 	margin-left: 60px;
 	padding-top: 15px;
 }
@@ -110,6 +115,7 @@ header nav {
 
 .info-title .section-subtitle {
     margin-top: 10px;
+	font-size: 1em;
 }
 
 .search-bar{
@@ -119,7 +125,6 @@ header nav {
 	border: 1px var(--main-bg-color) solid;
 	border-radius: 15px;
 	overflow: hidden;
-	font-size: 18px;
 }
 
 .search-bar .fa-location-dot{
@@ -129,6 +134,7 @@ header nav {
 	background-color: var(--main-bg-color);
 	color: black;
 	width: auto;
+	font-size: 1.125em;
 }
 
 .search-bar input{
@@ -138,6 +144,7 @@ header nav {
 	font-weight: bold;
 	width: 90%;
 	outline: none;
+	font-size: 1.125em;
 }
 
 .search-bar button{
@@ -148,6 +155,7 @@ header nav {
 	padding-left: 17px;
 	font-weight: bold;
 	width: auto;
+	font-size: 1.125em;
 }
 
 .search-bar .fa-magnifying-glass{
@@ -159,14 +167,20 @@ header nav {
 	align-items: center;
 }
 
+.filter-bar h3{
+	font-size: 1.125em;
+}
+
 .filter-bar button{
 	height: 50px;
+	display: flex;
+	align-items: center;
 	margin-left: 10px;
 	background: none;
+	font-weight: bold;
+	font-size: 1.063em;
 	border: 2px #D9D9D9 solid;
 	border-radius: 50px;
-	font-size: 16px;
-	font-weight: bold;
 	padding-right: 19px;
 	padding-left: 19px;
 }
@@ -177,22 +191,24 @@ header nav {
 
 .filter-bar i{
 	margin-right: 10px;
+	font-size: 1.2em;
 }
 
 .info-bar{
 	display: flex;
 	align-items: center;
+	font-size: 1em;
 }
 
 .info-bar i {
 	display: block;
-	width: 25px;
-	height: 25px;
+	width: 24px;
+	height: 24px;
 	line-height: 25px;
+	font-size: 0.7em;
 	text-align: center;
 	border-radius: 50px;
 	border: 1px #D9D9D9 solid;
-	font-size: 0.8em;
 	margin-right: 10px;
 }
 /****** Hebergements And Populaires ***********/
@@ -255,7 +271,7 @@ header nav {
 	border: none;
 	margin-bottom: 0px;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 1.125em;
 }
 /****** Populaires ***********/
 .populaires {
@@ -352,11 +368,12 @@ footer{
 
 .footer-title{
 	margin: 0;
-	font-size: 1.1em;
+	font-size: 1.125em;
 }
 
 .footer-list li{
 	margin-top: 10px;
+	font-size: 1em;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -364,34 +381,16 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-	/****** General ***********/
-	.section-title {
-		font-size: 20px;
-	}
-	
 	/****** header ***********/
 	header img{
 		width: 50px,
 	}
-
-	header nav {
-		font-size: 14px;
-	}
 	
 	/****** info ***********/
-	.info-title .section-subtitle, .info-bar {
-		font-size: 14px;
-	}
-	
-	.search-bar{
-		font-size: 13px;
-	}
-	
 	.filter-bar button{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 14px;
 	}
 	
 	.info-bar i{
@@ -409,14 +408,6 @@ footer{
     .hebergements {
         width: 100%;
     }
-	
-	.hebergements-cards .card-title {
-        font-size: 14px;
-    }
-
-    .hebergements-cards .card-subtitle {
-        font-size: 13px;
-    }
 
 	/****** Populaires ***********/
     .populaires {
@@ -433,14 +424,6 @@ footer{
     .populaires-cards a {
         width: 30%;
     }
-
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
 	
 	/****** activités ***********/
 	.activites-cards .card{
@@ -454,18 +437,8 @@ footer{
 	.activites-cards .card-title {
 		margin: 0;
 		height: 100%;
-		font-size: 14px;
 		display: flex;
 		align-items: center;
-	}
-	
-	/****** footer ***********/
-	.footer-txt .footer-title{
-		font-size: 15px;
-	}
-	
-	.footer-txt .footer-list{
-		font-size: 14px;
 	}
 }
 
@@ -474,10 +447,6 @@ footer{
 	/****** General ***********/
 	.main-container {
 		padding: 0;
-	}
-	
-	.section-title {
-		font-size: 18px;
 	}
 
 	/****** header ***********/
@@ -495,7 +464,6 @@ footer{
 
 	header nav {
 		width: 100%;
-		font-size: 13px;
 	}
 
 	.nav-list{
@@ -522,10 +490,6 @@ footer{
 	}
 	.info, .info-title, .search-bar, .filter-bar{
 		margin-bottom: 25px;
-	}
-
-	.info-title .section-subtitle, .info-bar {
-		font-size: 12px;
 	}
 	
 	.search-bar{
@@ -569,7 +533,6 @@ footer{
 		margin-left: 0;
 		margin-bottom: 20px;
 		text-align:left;
-		font-size: 12px;
 	}
 	
 	.info-bar p{
@@ -591,14 +554,6 @@ footer{
 		width: 100%;
 	}
 	
-	.hebergements-cards .card-title {
-        font-size: 13px;
-    }
-
-    .hebergements-cards .card-subtitle {
-        font-size: 12px;
-    }
-	
 	/****** Populaires ***********/
 	section.populaires {
         margin-top: 0;
@@ -617,22 +572,10 @@ footer{
         margin-top: 20px;
     }
 	
-	.populaires-cards .card-title {
-        font-size: 13px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 12px;
-    }
-	
 	/****** activités ***********/
 	.activites-cards {
         flex-direction: column;
     }
-	
-	.activites-cards .card-title{
-		font-size: 13px;
-	}
 	
 	.activites-cards a{
         width: 100%;
@@ -650,13 +593,5 @@ footer{
 	
 	.footer-txt:not(:last-child){
 		margin-bottom: 40px;
-	}
-	
-	.footer-txt .footer-title{
-		font-size: 14px;
-	}
-	
-	.footer-txt .footer-list{
-		font-size: 13px;
 	}
 }
