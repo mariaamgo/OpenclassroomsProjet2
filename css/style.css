@@ -465,7 +465,6 @@ footer{
 	header img{
 		margin-top: 25px;
 		margin-bottom: 25px;
-		width: 45px;
 	}
 
 	header nav {
@@ -581,8 +580,8 @@ footer{
 	/****** activités ***********/
 	.activities-cards {
         flex-direction: column;
+	height: 270px;
     }
-	
 	.activities-cards a{
         width: 100%;
 		margin-bottom: 20px;
