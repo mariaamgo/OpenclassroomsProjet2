@@ -574,18 +574,25 @@ footer{
     }
 	
 	.popular-cards .card{
-        margin-top: 20px;
-    }
+	         margin-top: 20px;
+	}
 	
 	/****** activités ***********/
-	.activities-cards {
-        flex-direction: column;
-    }
-	.activities-cards a{
-        width: 100%;
-		margin-bottom: 20px;
-    }
+	.activities {
+	        margin-bottom: 0;
+	}
 	
+	.activities-cards {
+	        flex-direction: column;
+	}
+	.activities-cards a{
+      		width: 100%;
+		margin-bottom: 20px;
+        }
+
+	.activities-cards .card{
+      		height: 200px;
+        }
 	/****** footer ***********/
 	footer{
 		flex-direction: column;
