@@ -30,7 +30,6 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-    overflow: hidden;
 }
 
 .section-title {
@@ -243,7 +242,7 @@ header nav {
 	flex-wrap: wrap;
 }
 
-.accommodations-cards a{
+.accommodations-cards .card{
     margin-top: 33px;
 	width: 31%;
 }
