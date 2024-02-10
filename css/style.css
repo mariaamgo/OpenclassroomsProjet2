@@ -242,7 +242,7 @@ header nav {
 	flex-wrap: wrap;
 }
 
-.accommodations-cards .card{
+.accommodations-cards a{
     margin-top: 33px;
 	width: 31%;
 }
