@@ -593,6 +593,11 @@ footer{
 	.activities-cards .card{
       		height: 200px;
         }
+
+	
+	.activities-cards img{
+		height: 70%;
+	}
 	/****** footer ***********/
 	footer{
 		flex-direction: column;
