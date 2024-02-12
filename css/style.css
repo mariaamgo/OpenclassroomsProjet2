@@ -437,7 +437,12 @@ footer{
 	}
 	
 	.activities-cards img{
-		height: 80%;
+		height: 70%;
+	}
+
+	.activities-cards .card-content{
+		height: 25%;
+		vertical-align: middle;
 	}
 	
 	.activities-cards .card-title {
@@ -594,14 +599,6 @@ footer{
       		height: 200px;
         }
 	
-	.activities-cards img{
-		height: 70%;
-	}
-
-	.activities-cards .card-content{
-		height: 25%;
-		vertical-align: middle;
-	}
 	/****** footer ***********/
 	footer{
 		flex-direction: column;
