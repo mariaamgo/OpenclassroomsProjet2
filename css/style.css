@@ -439,6 +439,11 @@ footer{
 	.activities-cards img{
 		height: 75%;
 	}
+
+	.activities-cards .card-content{
+		height: 20%;
+		vertical-align: middle;
+	}
 	
 	.activities-cards .card-title {
 		margin: 0;
@@ -600,7 +605,6 @@ footer{
 
 	.activities-cards .card-content{
 		height: 25%;
-		vertical-align: middle;
 	}
 	
 	/****** footer ***********/
