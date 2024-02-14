@@ -95,6 +95,7 @@ header nav {
 
 .nav-list{
 	display: flex;
+	align-items: baseline;
 }
 
 .nav-list li{
