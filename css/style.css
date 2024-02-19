@@ -104,7 +104,7 @@ header nav {
 	padding-top: 15px;
 }
 
-.nav-list li.active{
+.nav-list li:hover{
 	color: var(--main-color);
 	border-top: 2px var(--main-color) solid;
 }
@@ -485,7 +485,7 @@ footer{
 		border-bottom: 2px var(--main-bg-color) solid;
 	}
 
-	.nav-list li.active{
+	.nav-list li:hover{
 		border-top: none;
 		border-bottom: 2px var(--main-color) solid;
 	}
