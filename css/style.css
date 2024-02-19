@@ -80,13 +80,12 @@ header{
 	margin-bottom: 50px;
 	display: flex;
     justify-content: space-between;
-	align-items: center;
 	margin-bottom: 50px;
 }
 
 header img{
     width:  70px;
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 header nav {
@@ -95,19 +94,18 @@ header nav {
 
 .nav-list{
 	display: flex;
-	align-items: baseline;
 }
 
 .nav-list li{
 	font-size: 1em;
 	margin-left: 60px;
 	padding-top: 15px;
-	box-sizing: border-box;
+    border-top: 2px transparent solid;
 }
 
 .nav-list li:hover{
 	color: var(--main-color);
-	border-top: 2px var(--main-color) solid;
+	border-color: var(--main-color);
 }
 
 /****** info ***********/
@@ -124,7 +122,6 @@ header nav {
     display: flex;
 	width: 400px;
 	height: 50px;
-	border: 1px var(--main-bg-color) solid;
 	border-radius: 15px;
 	overflow: hidden;
 }
@@ -143,7 +140,9 @@ header nav {
 	display: inline-block;
 	background-color: white;
 	text-align: center;
-	border: none;
+    border: none;
+	border-top: 1px var(--main-bg-color) solid;
+    border-bottom: 1px var(--main-bg-color) solid;
 	font-weight: bold;
 	width: 90%;
 	outline: none;
@@ -461,6 +460,7 @@ footer{
     header{
 		flex-direction: column;
 		justify-content: center;
+        align-items: center;
 		margin-bottom: 25px;
 	}
 
@@ -515,6 +515,7 @@ footer{
 	
 	.search-bar button{
 		border-radius: 15px;
+        margin-left: -15px;
 		filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 	}
 	
