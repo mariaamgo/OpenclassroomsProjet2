@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+>>>>>>> 6800f688e10a0a15d79f20f074ac9a4c5a4b4aa3
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
@@ -217,6 +227,10 @@ header nav {
 	border: 1px #D9D9D9 solid;
 	margin-right: 10px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6800f688e10a0a15d79f20f074ac9a4c5a4b4aa3
 /****** Accommodations And Popular ***********/
 .accommodations-and-popular {
     display: flex;
@@ -280,6 +294,10 @@ header nav {
 	font-size: 1.125em;
 	color: black;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6800f688e10a0a15d79f20f074ac9a4c5a4b4aa3
 /****** Popular ***********/
 .popular {
     width: 32%;
@@ -388,11 +406,14 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+<<<<<<< HEAD
 	/****** header ***********/
 	header img{
 		width: 50px,
 	}
 	
+=======
+>>>>>>> 6800f688e10a0a15d79f20f074ac9a4c5a4b4aa3
 	/****** info ***********/
 	
 	.info-bar i{
@@ -577,11 +598,16 @@ footer{
     }
 	
 	.popular-cards .card{
+<<<<<<< HEAD
 	         margin-top: 20px;
+=======
+	    margin-top: 20px;
+>>>>>>> 6800f688e10a0a15d79f20f074ac9a4c5a4b4aa3
 	}
 	
 	/****** activities ***********/
 	.activities {
+<<<<<<< HEAD
 	        margin-bottom: 0;
 	}
 	
@@ -596,6 +622,22 @@ footer{
 	.activities-cards .card{
       		height: 200px;
         }
+=======
+	    margin-bottom: 0;
+	}
+	
+	.activities-cards {
+	    flex-direction: column;
+	}
+	.activities-cards a{
+      	width: 100%;
+		margin-bottom: 20px;
+    }
+	
+	.activities-cards .card{
+      	height: 200px;
+    }
+>>>>>>> 6800f688e10a0a15d79f20f074ac9a4c5a4b4aa3
 
 	.activities-cards img{
 		height: 70%;
